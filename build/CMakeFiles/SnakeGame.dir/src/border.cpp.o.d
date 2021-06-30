@@ -1,8 +1,5 @@
-CMakeFiles/SnakeGame.dir/src/game.cpp.o: \
-  /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/game.cpp \
-  /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/inc/game.h \
-  /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/inc/controller.h \
-  /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/inc/snake.h \
+CMakeFiles/SnakeGame.dir/src/border.cpp.o: \
+  /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/border.cpp \
   /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/inc/border.h \
   /usr/local/Cellar/sdl2/2.0.14_1/include/SDL2/SDL.h \
   /usr/local/Cellar/sdl2/2.0.14_1/include/SDL2/SDL_main.h \
@@ -304,62 +301,4 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__threading_support \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread/pthread_impl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread/sched.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread_impl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread/qos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/qos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/_locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/_xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/__wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_inttypes.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/nl_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/bitset \
-  /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/inc/renderer.h \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/random \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__split_buffer

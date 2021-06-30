@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/sdl2/2.0.14_1/include/SDL2 -I/Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/src
+CXX_INCLUDES = -I/usr/local/Cellar/sdl2/2.0.14_1/include/SDL2 -I/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src -I/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/inc
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++17 -std=gnu++17
 

@@ -5,6 +5,10 @@
 
 class Controller {
  public:
+  Controller();
+
+  ~Controller();
+
   void HandleInput(bool &running, Snake &snake) const;
 
  private:

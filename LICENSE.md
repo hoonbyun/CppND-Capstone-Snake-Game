@@ -395,3 +395,7 @@ to any of its public licenses or any other arrangements, understandings, or agre
 the avoidance of doubt, this paragraph does not form part of the public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
+
+
+TODO
+User input to select initial ball speed

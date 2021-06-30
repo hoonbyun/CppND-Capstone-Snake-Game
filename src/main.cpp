@@ -1,8 +1,8 @@
-#include <iostream>
-#include <string>
 #include "controller.h"
 #include "game.h"
 #include "renderer.h"
+
+#include <iostream>
 
 int main() {
   constexpr std::size_t kFramesPerSecond{60};
@@ -14,16 +14,15 @@ int main() {
 
   Renderer renderer(kScreenWidth, kScreenHeight, kGridWidth, kGridHeight);
   Controller controller;
+  float initSpeed;
+  std::cout << "Enter initial speed from 0.1 to 0.5" << "\n";
+  std::cin >> initSpeed;
+  std::cout << "You entered " << initSpeed << "\n";
+ 
   Game game(kGridWidth, kGridHeight);
-  game.Run(controller, renderer, kMsPerFrame);
-  std::string userInitials;
-  std::cout << "You lose :(\n";
-  std::cout << "Enter your initals: " << "\n";
-  std::cin >> userInitials;
-  std::cout << userInitials << "'s stats: " << "\n";
+  game.Run(controller, renderer, kMsPerFrame, initSpeed);
+  std::cout << "Game has terminated successfully!\n";
   std::cout << "Score: " << game.GetScore() << "\n";
   std::cout << "Size: " << game.GetSize() << "\n";
-  std::cout << "Random speed: " << game.GetSpeed() << "\n";
-  
   return 0;
 }

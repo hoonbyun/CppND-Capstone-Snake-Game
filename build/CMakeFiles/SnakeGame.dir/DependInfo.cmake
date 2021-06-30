@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/src/controller.cpp" "CMakeFiles/SnakeGame.dir/src/controller.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/controller.cpp.o.d"
-  "/Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/src/game.cpp" "CMakeFiles/SnakeGame.dir/src/game.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/game.cpp.o.d"
-  "/Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/src/main.cpp" "CMakeFiles/SnakeGame.dir/src/main.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/main.cpp.o.d"
-  "/Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/src/renderer.cpp" "CMakeFiles/SnakeGame.dir/src/renderer.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/renderer.cpp.o.d"
-  "/Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/src/snake.cpp" "CMakeFiles/SnakeGame.dir/src/snake.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/snake.cpp.o.d"
+  "/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/border.cpp" "CMakeFiles/SnakeGame.dir/src/border.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/border.cpp.o.d"
+  "/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/controller.cpp" "CMakeFiles/SnakeGame.dir/src/controller.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/controller.cpp.o.d"
+  "/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/game.cpp" "CMakeFiles/SnakeGame.dir/src/game.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/game.cpp.o.d"
+  "/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/main.cpp" "CMakeFiles/SnakeGame.dir/src/main.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/main.cpp.o.d"
+  "/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/renderer.cpp" "CMakeFiles/SnakeGame.dir/src/renderer.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/renderer.cpp.o.d"
+  "/Users/hoon/project/CppND/CppND-Capstone-Snake-Game/src/snake.cpp" "CMakeFiles/SnakeGame.dir/src/snake.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/src/snake.cpp.o.d"
   )
 
 # Targets to which this target links.

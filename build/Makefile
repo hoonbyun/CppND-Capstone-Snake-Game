@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.20.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game
+CMAKE_SOURCE_DIR = /Users/hoon/project/CppND/CppND-Capstone-Snake-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/build
+CMAKE_BINARY_DIR = /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/build/CMakeFiles /Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/build/CMakeFiles /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoon/project/CppND/udacity-snake-roguelike/CppND-Capstone-Snake-Game/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoon/project/CppND/CppND-Capstone-Snake-Game/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ SnakeGame: cmake_check_build_system
 SnakeGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/build
 .PHONY : SnakeGame/fast
+
+src/border.o: src/border.cpp.o
+.PHONY : src/border.o
+
+# target to build an object file
+src/border.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/border.cpp.o
+.PHONY : src/border.cpp.o
+
+src/border.i: src/border.cpp.i
+.PHONY : src/border.i
+
+# target to preprocess a source file
+src/border.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/border.cpp.i
+.PHONY : src/border.cpp.i
+
+src/border.s: src/border.cpp.s
+.PHONY : src/border.s
+
+# target to generate assembly for a file
+src/border.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/border.cpp.s
+.PHONY : src/border.cpp.s
 
 src/controller.o: src/controller.cpp.o
 .PHONY : src/controller.o
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SnakeGame"
+	@echo "... src/border.o"
+	@echo "... src/border.i"
+	@echo "... src/border.s"
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"
